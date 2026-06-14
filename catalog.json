@@ -1,0 +1,35 @@
+{
+  "schema": "brmste-human-open-gits-catalog/v1",
+  "version": "2026-06-14",
+  "patent": {
+    "uk": "GB2607860",
+    "pct": "PCT/GB2026/050406",
+    "enforcement": "https://brmste.com/substrate/patent-enforcement.json"
+  },
+  "brand": {
+    "primary": "https://brmste.com/substrate/glasses/brmste-logo-primary.svg",
+    "wordmark": "https://brmste.com/glass/brmste-logo.svg",
+    "org_mark": "https://raw.githubusercontent.com/BRMSTE-SB/.github/main/assets/brmste-org-mark.svg"
+  },
+  "repos": [
+    {
+      "name": "open-gits",
+      "url": "https://github.com/BRMSTE-SB/open-gits",
+      "clone": "git clone https://github.com/BRMSTE-SB/open-gits.git"
+    },
+    {
+      "name": "brmste-human-future",
+      "url": "https://github.com/BRMSTE-SB/brmste-human-future",
+      "clone": "git clone https://github.com/BRMSTE-SB/brmste-human-future.git"
+    },
+    {
+      "name": "mining-pools",
+      "url": "https://github.com/BRMSTE-SB/mining-pools",
+      "clone": "git clone https://github.com/BRMSTE-SB/mining-pools.git"
+    }
+  ],
+  "edge": {
+    "catalog": "https://brmste.com/substrate/human/open-gits.json",
+    "free": "https://brmste.com/substrate/human/free.json"
+  }
+}
